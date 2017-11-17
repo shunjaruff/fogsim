@@ -36,11 +36,10 @@ import org.fog.utils.TimeKeeper;
 import org.fog.utils.distribution.DeterministicDistribution;
 
 /**
- * Simulation setup for case study 1 - EEG Beam Tractor Game
- * @author Harshit Gupta
+ VR HeadSet simulation
  *
  */
-public class VRGameFog {
+public class VRHeadSet {
 	static List<FogDevice> fogDevices = new ArrayList<FogDevice>();
 	static List<Sensor> sensors = new ArrayList<Sensor>();
 	static List<Actuator> actuators = new ArrayList<Actuator>();
