@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9084cae3-1ca5-433a-8f33-1cfb4c6ff31d" name="Default" comment="Adding class for blackberry supply chain simulation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_math3_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/dcnsCloud" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/dcnsFog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/vrGameCloud" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/vrGameFog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/DCNS_POWER_CORRECTED.ods" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/DCNS_POWER_CORRECTED.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/DCNS_Results.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/DCNS_Results_EXTENDED.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/VRGame_Results.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/VR_GAME_POWER_CORRECTED.ods" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/VR_GAME_POWER_CORRECTED.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/VR_GAME_POWER_CORRECTED.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/VR_GAME_RESULTS_EXTENDED.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/results-dcns" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/results-vrgame" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/fog/test/perfeval/DCNSFog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/fog/test/perfeval/TwoApps.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/fog/test/perfeval/BlackberrySupplyChain.java" afterPath="$PROJECT_DIR$/src/org/fog/test/perfeval/BlackberrySupplyChain.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,15 +18,15 @@
       <file leaf-file-name="BlackberrySupplyChain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/fog/test/perfeval/BlackberrySupplyChain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3480">
-              <caret line="260" column="0" lean-forward="true" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="e#1361#1372#0" expanded="true" />
                 <element signature="e#1423#1431#0" expanded="true" />
                 <element signature="e#1486#1496#0" expanded="true" />
-                <element signature="e#7958#7964#0" expanded="true" />
-                <element signature="e#8574#8583#0" expanded="true" />
-                <element signature="e#9439#9469#0" expanded="true" />
+                <element signature="e#7957#7963#0" expanded="true" />
+                <element signature="e#8573#8582#0" expanded="true" />
+                <element signature="e#9438#9468#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,6 +111,11 @@
             <path>
               <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
               <item name="fogsim" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fogsim" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,7 +177,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BlackberrySupplyChain">
+    <configuration name="BlackberrySupplyChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.fog.test.perfeval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.fog.test.perfeval.BlackberrySupplyChain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="fogsim" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -274,6 +278,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.BlackberrySupplyChain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -285,7 +294,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510881518315</updated>
-      <workItem from="1510881522160" duration="2287000" />
+      <workItem from="1510881522160" duration="3497000" />
     </task>
     <task id="LOCAL-00001" summary="Adding class for blackberry supply chain simulation">
       <created>1510881981510</created>
@@ -305,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2287000" />
+    <option name="totallyTimeSpent" value="3497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="6" />
@@ -319,8 +328,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -373,15 +382,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/fog/test/perfeval/BlackberrySupplyChain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3480">
-          <caret line="260" column="0" lean-forward="true" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="e#1361#1372#0" expanded="true" />
             <element signature="e#1423#1431#0" expanded="true" />
             <element signature="e#1486#1496#0" expanded="true" />
-            <element signature="e#7958#7964#0" expanded="true" />
-            <element signature="e#8574#8583#0" expanded="true" />
-            <element signature="e#9439#9469#0" expanded="true" />
+            <element signature="e#7957#7963#0" expanded="true" />
+            <element signature="e#8573#8582#0" expanded="true" />
+            <element signature="e#9438#9468#0" expanded="true" />
           </folding>
         </state>
       </provider>

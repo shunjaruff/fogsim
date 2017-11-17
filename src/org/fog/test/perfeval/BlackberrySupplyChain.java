@@ -38,9 +38,9 @@ public class BlackberrySupplyChain {
     static List<Sensor> sensors = new ArrayList<Sensor>();
     static List<Actuator> actuators = new ArrayList<Actuator>();
     static int numOfAreas =1;
-    static int numOftempSensorsPerArea = 4;
+    static int numOftempSensorsPerArea = 1;
 
-    private static boolean CLOUD = false;
+    private static boolean CLOUD = true;
 
     public static void main(String[] args) {
 
@@ -249,8 +249,8 @@ public class BlackberrySupplyChain {
       * Here, we add two loops for monitoring : Motion Detector -> Object Detector -> Object Tracker and Object Tracker -> PTZ Control
       */
         final AppLoop loop1 = new AppLoop(new ArrayList<String>(){{add("tempSensor");add("smartReader");add("ODSU");/*add("CloudServ");*/}});
-        final AppLoop loop2 = new AppLoop(new ArrayList<String>(){{;add("ENU");add("sendAlert");}});
-        List<AppLoop> loops = new ArrayList<AppLoop>(){{add(loop1);add(loop2);}};
+//        final AppLoop loop2 = new AppLoop(new ArrayList<String>(){{;add("ENU");add("sendAlert");}});
+        List<AppLoop> loops = new ArrayList<AppLoop>(){{add(loop1);/*add(loop2);*/}};
 
         application.setLoops(loops);
         return application;
