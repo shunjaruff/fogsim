@@ -44,7 +44,7 @@ public class BlackberrySupplyChain {
 
     public static void main(String[] args) {
 
-        Log.printLine("Starting DCNS...");
+        Log.printLine("Starting Blackberry Supply Chain...");
 
         try {
             Log.disable();
@@ -54,7 +54,7 @@ public class BlackberrySupplyChain {
 
             CloudSim.init(num_user, calendar, trace_flag);
 
-            String appId = "dcns"; // identifier of the application
+            String appId = "Blackberry"; // identifier of the application
 
             FogBroker broker = new FogBroker("broker");
 
@@ -140,7 +140,7 @@ public class BlackberrySupplyChain {
         sensor.setGatewayDeviceId(tempSensor.getId());
         sensor.setLatency(1.0);  // latency of connection between tempSensor (sensor) and the parent Smart tempSensor is 1 ms
         ptz.setGatewayDeviceId(tempSensor.getId());
-        ptz.setLatency(0.092);  // latency of connection between PTZ Control and the parent Smart tempSensor is 1 ms
+        ptz.setLatency(0.092);  // latency of connection between smart reader and the  tempSensor is 0.092 ms
         return tempSensor;
     }
 
@@ -233,7 +233,7 @@ public class BlackberrySupplyChain {
       */
         application.addAppEdge("tempSensor", "smartReader", 1000, 20000, "tempSensor", Tuple.UP, AppEdge.SENSOR); // adding edge from tempSensor (sensor) to Motion Detector module carrying tuples of type tempSensor
         application.addAppEdge("smartReader", "ODSU", 2000, 2000, "correctiveActions", Tuple.UP, AppEdge.MODULE); // adding edge from Motion Detector to Object Detector module carrying tuples of type correctiveActions
-        application.addAppEdge("ODSU", "CloudServ", 2000, 60000, "dataUpload", Tuple.UP, AppEdge.MODULE); // adding edge from Object Detector to User Interface module carrying tuples of type dataUpload
+        application.addAppEdge("ODSU", "CloudServ", 500, 2000, "dataUpload", Tuple.UP, AppEdge.MODULE); // adding edge from Object Detector to User Interface module carrying tuples of type dataUpload
         application.addAppEdge("ODSU", "ENU", 1000, 100, "analysisAndAlert", Tuple.UP, AppEdge.MODULE); // adding edge from Object Detector to Object Tracker module carrying tuples of type analysisAndAlert
         application.addAppEdge("ENU", "sendAlert", 100, 28, 10000, "PTZ_PARAMS", Tuple.DOWN, AppEdge.ACTUATOR); // adding edge from Object Tracker to PTZ CONTROL (actuator) carrying tuples of type PTZ_PARAMS
 
