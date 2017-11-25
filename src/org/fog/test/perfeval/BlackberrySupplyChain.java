@@ -38,7 +38,7 @@ public class BlackberrySupplyChain {
     static List<Sensor> sensors = new ArrayList<Sensor>();
     static List<Actuator> actuators = new ArrayList<Actuator>();
     static int numOfAreas =1;
-    static int numOftempSensorsPerArea = 1;
+    static int numOftempSensorsPerArea = 6;
 
     private static boolean CLOUD = true;
 

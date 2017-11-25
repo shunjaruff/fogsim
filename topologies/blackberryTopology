@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "name": "ENU",
+      "actuatorType": "ENU",
+      "type": "ACTUATOR"
+    },
+    {
+      "ratePerMips": 0,
+      "downBw": 1000,
+      "level": 1,
+      "upBw": 1000,
+      "ram": 1024,
+      "name": "router",
+      "mips": 1000,
+      "type": "FOG_DEVICE"
+    },
+    {
+      "sensorType": "Sensor",
+      "name": "Temperature",
+      "mean": 10,
+      "type": "SENSOR",
+      "distribution": 1,
+      "stdDev": 2
+    },
+    {
+      "sensorType": "Sensor",
+      "name": "Temperature",
+      "mean": 10,
+      "type": "SENSOR",
+      "distribution": 1,
+      "stdDev": 2
+    },
+    {
+      "ratePerMips": 0,
+      "downBw": 1000,
+      "level": 2,
+      "upBw": 1000,
+      "ram": 1024,
+      "name": "ODSU",
+      "mips": 1000,
+      "type": "FOG_DEVICE"
+    },
+    {
+      "ratePerMips": 0,
+      "downBw": 1000,
+      "level": 2,
+      "upBw": 1000,
+      "ram": 1024,
+      "name": "ODSU",
+      "mips": 1000,
+      "type": "FOG_DEVICE"
+    },
+    {
+      "name": "ENU",
+      "actuatorType": "ENU",
+      "type": "ACTUATOR"
+    },
+    {
+      "ratePerMips": 10,
+      "downBw": 1000,
+      "level": 0,
+      "upBw": 100,
+      "ram": 10240,
+      "name": "Cloud Server",
+      "mips": 100000,
+      "type": "FOG_DEVICE"
+    }
+  ],
+  "links": [
+    {
+      "latency": 2,
+      "source": "ODSU",
+      "destination": "ENU"
+    },
+    {
+      "latency": 50,
+      "source": "router",
+      "destination": "Cloud Server"
+    },
+    {
+      "latency": 2,
+      "source": "Temperature",
+      "destination": "ODSU"
+    },
+    {
+      "latency": 2,
+      "source": "Temperature",
+      "destination": "ODSU"
+    },
+    {
+      "latency": 10,
+      "source": "ODSU",
+      "destination": "router"
+    },
+    {
+      "latency": 10,
+      "source": "ODSU",
+      "destination": "router"
+    },
+    {
+      "latency": 2,
+      "source": "ENU",
+      "destination": "ODSU"
+    }
+  ]
+}
