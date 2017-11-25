@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9084cae3-1ca5-433a-8f33-1cfb4c6ff31d" name="Default" comment="Adding class for blackberry supply chain simulation">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/~$Blackberry.xlsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fogsim/org/fog/test/perfeval/BlackberrySupplyChain.class" afterPath="$PROJECT_DIR$/out/production/fogsim/org/fog/test/perfeval/BlackberrySupplyChain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fogsim/org/fog/test/perfeval/VRHeadSet.class" afterPath="$PROJECT_DIR$/out/production/fogsim/org/fog/test/perfeval/VRHeadSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/fog/test/perfeval/BlackberrySupplyChain.java" afterPath="$PROJECT_DIR$/src/org/fog/test/perfeval/BlackberrySupplyChain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/fog/test/perfeval/VRHeadSet.java" afterPath="$PROJECT_DIR$/src/org/fog/test/perfeval/VRHeadSet.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/topologies/routerTopology" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/src/org/fog/test/perfeval/VRHeadSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="61">
-              <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+              <caret line="40" column="3" lean-forward="false" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -125,59 +119,7 @@
             <path>
               <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
               <item name="fogsim" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fogsim" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fogsim" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fogsim" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="fog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fogsim" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="fog" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fogsim" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="fog" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fogsim" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="fog" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fogsim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fogsim" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="fog" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="perfeval" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,7 +334,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510881518315</updated>
       <workItem from="1510881522160" duration="9130000" />
-      <workItem from="1511641963529" duration="298000" />
+      <workItem from="1511641963529" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="Adding class for blackberry supply chain simulation">
       <created>1510881981510</created>
@@ -412,7 +354,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9428000" />
+    <option name="totallyTimeSpent" value="9623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="6" />
@@ -522,7 +464,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/fog/test/perfeval/VRHeadSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
-          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+          <caret line="40" column="3" lean-forward="false" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -532,7 +474,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>

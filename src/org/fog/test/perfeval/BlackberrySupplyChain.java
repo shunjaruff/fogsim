@@ -38,7 +38,7 @@ public class BlackberrySupplyChain {
     static List<Sensor> sensors = new ArrayList<Sensor>();
     static List<Actuator> actuators = new ArrayList<Actuator>();
     static int numOfAreas =1;
-    static int numOftempSensorsPerArea = 6;
+    static int numOftempSensorsPerArea = 4;
 
     private static boolean CLOUD = true;
 
@@ -91,7 +91,7 @@ public class BlackberrySupplyChain {
 
             CloudSim.stopSimulation();
 
-            Log.printLine("VRGame finished!");
+            Log.printLine("Blackberry Supply Chain finished!");
         } catch (Exception e) {
             e.printStackTrace();
             Log.printLine("Unwanted errors happen");
